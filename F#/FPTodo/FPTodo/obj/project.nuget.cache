@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5vxIMgcHVqGDayqLM9ao+ATsfp1ndBZTmZzPhAeRdyVCY/3yOXLQXDRI6sC4LlYX6zF6cYoHnGvdEkl409ppJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\guga_\\OneDrive\\Área de Trabalho\\University\\year 3\\Dissertation\\code\\F#\\FPTodo\\FPTodo\\FPTodo.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\guga_\\.nuget\\packages\\fsharp.core\\6.0.4\\fsharp.core.6.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

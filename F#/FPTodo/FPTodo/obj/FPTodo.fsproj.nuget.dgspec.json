@@ -1,0 +1,69 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\guga_\\OneDrive\\Área de Trabalho\\University\\year 3\\Dissertation\\code\\F#\\FPTodo\\FPTodo\\FPTodo.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\guga_\\OneDrive\\Área de Trabalho\\University\\year 3\\Dissertation\\code\\F#\\FPTodo\\FPTodo\\FPTodo.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\guga_\\OneDrive\\Área de Trabalho\\University\\year 3\\Dissertation\\code\\F#\\FPTodo\\FPTodo\\FPTodo.fsproj",
+        "projectName": "FPTodo",
+        "projectPath": "C:\\Users\\guga_\\OneDrive\\Área de Trabalho\\University\\year 3\\Dissertation\\code\\F#\\FPTodo\\FPTodo\\FPTodo.fsproj",
+        "packagesPath": "C:\\Users\\guga_\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guga_\\OneDrive\\Área de Trabalho\\University\\year 3\\Dissertation\\code\\F#\\FPTodo\\FPTodo\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\guga_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\6.0.300\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.4, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
