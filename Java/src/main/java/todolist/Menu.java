@@ -5,9 +5,14 @@ import java.util.Scanner;
 public class Menu {
     static Scanner input = new Scanner(System.in);
     private int choice;
-    private final TodoList todoList;
+    //private final InMemoryTodoList todoList;
+    private final StackBasedTodoList todoList;
 
-    public Menu(TodoList todoList) {
+//    public Menu(InMemoryTodoList todoList) {
+//        this.todoList = todoList;
+//    }
+
+    public Menu(StackBasedTodoList todoList) {
         this.todoList = todoList;
     }
 
@@ -35,13 +40,14 @@ public class Menu {
                 TodoItem todoItem = new TodoItem.TodoItemBuilder()
                         .task(input.next())
                         .build();
-                todoList.addTask(todoItem);
+                todoList.add(todoItem);
                 System.out.println("Task added");
                 System.out.println("------------------------");
                 break;
             case 2:
                 System.out.print("Enter task number: ");
-                todoList.removeTask(input.nextInt());
+                //todoList.remove(input.nextInt());
+                todoList.remove();
                 System.out.println("Task removed ");
                 System.out.println("------------------------");
                 break;

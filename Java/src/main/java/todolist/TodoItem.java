@@ -1,30 +1,26 @@
 package todolist;
 
-public class TodoItem {
-    private String task;
+public final class TodoItem {
+    private final String description;
 
-    public TodoItem(String task) {
-        this.task = task;
+    public TodoItem(String description) {
+        this.description = description;
     }
 
-    public String getTask() {
-        return task;
-    }
-
-    public void setTask(String task) {
-        this.task = task;
+    public String getDescription() {
+        return this.description;
     }
 
     public static class TodoItemBuilder {
-        private String task;
+        private String description;
 
-        public TodoItemBuilder task(String task) {
-            this.task = task;
+        public TodoItemBuilder task(String description) {
+            this.description = description;
             return this;
         }
 
         public TodoItem build() {
-            return new TodoItem(task);
+            return new TodoItem(description);
         }
     }
 }
