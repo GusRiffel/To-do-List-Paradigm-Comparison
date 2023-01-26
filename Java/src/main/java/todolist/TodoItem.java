@@ -2,9 +2,11 @@ package todolist;
 
 public final class TodoItem {
     private final String description;
+    private final String category;
 
     public TodoItem(String description) {
         this.description = description;
+        this.category = "";
     }
 
     public String getDescription() {
